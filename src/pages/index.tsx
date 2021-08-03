@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+import { Civic } from '../components/Civic';
 import { Header } from "../components/Header";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
 
       <Header />
+      <Civic />
     </>
   )
 }
