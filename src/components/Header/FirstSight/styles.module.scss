@@ -1,0 +1,41 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 12.5rem;
+    height: 3.2rem;
+    margin-top: 1.75rem;
+  }
+
+  div {
+    margin-top: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      font-style: italic;
+      color: #727B7A;
+    }
+
+    strong {
+      font-style: italic;
+      letter-spacing: 1px;
+      font-size: 1.65rem;
+      color: #DF0209;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .content {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

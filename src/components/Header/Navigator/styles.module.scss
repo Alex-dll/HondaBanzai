@@ -66,18 +66,23 @@
         display: block;
         font-size: 0.75rem;
         padding-top: 0.2rem;
+        width: 190px;
       }
     }
 
     div {
       justify-content: space-between;
-      max-width: calc(1200px - 65%);
+      max-width: calc(1200px - 72%);
       width: 100%;
+      
+      ul {
+        & + ul {
+            max-width: 120px;
+        }
+      }
 
       p {
         padding-left: 0.1rem;
-        & + p {
-        }
       }
     }
   }
