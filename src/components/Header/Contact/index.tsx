@@ -5,39 +5,44 @@ export function Contact() {
   return (
     <aside className={styles.container}>
       <div className={styles.content}>
-        <div>
+        <div className={styles.contact}>
           <img src="/images/Grupo 45.svg" alt="Telefone" />
           <p>Solicitar um <br />
             <span>CONTATO</span>
           </p>
         </div>
-        <form>
-          <div>
+        <form className={styles.form}>
+          <div className={styles.input}>
             <input type="text" placeholder="Nome" />
+            <img src="/images/Grupo 32.svg" alt="Pessoa" />
           </div>
-          <div>
+          <div className={styles.input}>
             <input type="text" placeholder="E-mail" />
+            <img src="/images/black-envelope.svg" alt="Envelope" />
           </div>
-          <div>
+          <div className={styles.input}>
             <input type="text" placeholder="Telefone" />
+            <img src="/images/call-answer.svg" alt="Telefone" />
           </div>
-          <div>
+          <div className={styles.select}>
             <select name="Escolha o horário">
               <option disabled selected>Escolha o horário</option>
               <option value="Matutino">Matutino</option>
               <option value="Verspertino">Verspertino</option>
               <option value="Noturno">Noturno</option>
             </select>
+            <img src="/images/clock-circular-outline.svg" alt="Pessoa" />
           </div>
-          <div>
+          <div className={styles.select}>
             <select name="Escolha a unidade">
               <option disabled selected>Escolha a unidade</option>
               <option value="DF">DF</option>
               <option value="MG">MG</option>
               <option value="SP">SP</option>
             </select>
+            <img src="/images/facebook-placeholder-for-locate-places-on-maps.svg" alt="Pessoa" />
           </div>
-          <button>AGENDAR TEST DRIVE</button>
+          <button className={styles.button}>AGENDAR TEST DRIVE</button>
         </form>
       </div>
     </aside>
