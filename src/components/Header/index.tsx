@@ -1,4 +1,5 @@
 import { CarPresentation } from "./CarPresentation";
+import { Contact } from "./Contact";
 import { FirstSight } from "./FirstSight";
 import { Navigator } from "./Navigator";
 
@@ -8,6 +9,7 @@ export function Header() {
       <Navigator />
       <FirstSight />
       <CarPresentation />
+      <Contact />
     </header>
   )
 }
