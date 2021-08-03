@@ -1,20 +1,24 @@
+import styles from './styles.module.scss'
+
 export function Navigator() {
   return (
-    <nav>
-      <ul>
-        <img src="/images/home-button.svg" alt="Ir para o Portal Banzai" />
-        <span>Ir para o Portal Banzai</span>
-      </ul>
-      <div>
+    <div className={styles.container}>
+      <nav className={styles.content}>
         <ul>
-          <img src="/images/facebook-placeholder-for-locate-places-on-maps.svg" alt="Encontre uma concessionária" />
-          <span>Encontre uma concessionária</span>
+          <img src="/images/home-button.svg" alt="Ir para o Portal Banzai" />
+          <p>Ir para o Portal Banzai</p>
         </ul>
-        <ul>
-          <img src="/images/black-envelope.svg" alt="Fale Conosco" />
-          <span>Fale Conosco</span>
-        </ul>
-      </div>
-    </nav>
+        <div>
+          <ul>
+            <img src="/images/facebook-placeholder-for-locate-places-on-maps.svg" alt="Encontre uma concessionária" />
+            <p>Encontre uma concessionária</p>
+          </ul>
+          <ul>
+            <img src="/images/black-envelope.svg" alt="Fale Conosco" />
+            <p>Fale Conosco</p>
+          </ul>
+        </div>
+      </nav>
+    </div>
   )
 }
