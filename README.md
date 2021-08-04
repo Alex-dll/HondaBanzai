@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# Bem vindo(a) ao desafio de frontEnd para a Agência E-Plus
 
+## Desafio
+
+- Codificar o layout que segue no [Adobe XD](https://xd.adobe.com/view/9c38dd1b-a665-4b3b-af2a-3f5b986fd22e-c96b/screen/9ff562cd-987e-4031-90ff-02425a4dd736/specs/)
+
+### Detalhes da aplicação
+Para acessar o site clique >>>[AQUI](https://honda-banzai-nfd9rrctu-alex-dll.vercel.app/)<<<
+
+> #### Apresentação Desktop![Behaviors](https://github.com/Alex-dll/HondaBanzai/blob/master/public/Desktop.gif?raw=true)
+
+> #### Apresentação Mobile
+> ![Behaviors](https://github.com/Alex-dll/HondaBanzai/blob/master/public/Mobile.gif?raw=true)
+
+
+## Como executar o projeto
+	
+Clone esse projeto	
 ```bash
-npm run dev
-# or
-yarn dev
+  git clone https://github.com/Alex-dll/HondaBanzai
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Va para o diretório do projeto
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd my-project
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
+Instale as dependências
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+  npm install | yarn install
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Inicie a aplicação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev | yarn dev
+```
+  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🛠 Ferramentas usadas ⌨
+- NextJS
+- ReactJS
+- Type Script
+- Swiper (Swiper React Components)
+- Scss
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Considerações finais
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Eu poderia melhorar essa aplicação alguns lugares, o principal seria adicionar a funcionalidade de abrir a lista de carros no componente "GetHonda". Adicionar mais responsividade em outras telas, ja que fiz somente as duas principais solicitadas 1366 e 375. Animações, usar o prevent Defalt no formulário e algumas outras coisas básicas.
+
+Foi um excelente desafio para por em teste os conhecimento
+
+
+----------
+
+🚀Foguete não tem ré
