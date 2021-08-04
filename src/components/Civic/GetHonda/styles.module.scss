@@ -1,0 +1,156 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 51px;
+
+  h1 {
+    width: 300px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  p {
+    width: 300px;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+.card {
+  margin-top: 15px;
+
+  &.cardsDesktop {
+    display: none;
+  }
+
+  .cardCar {
+    width: 335px;
+    height: 196px;
+    border: 1px solid #D5D5D5;
+
+    .cardCarMobile {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      img {
+        height: 179px;
+        width: 211px;
+      }
+      
+      p {
+        display: none;
+      }
+
+      button {
+        padding: 1px;
+        border: none;
+        background: transparent;
+
+        transition: transform 0.2s;
+
+        img {
+          width: 60.35px;
+          height: 30.02px;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+
+      .buttonDesktop {
+        display: none;
+      }
+    }
+  }
+
+  .buttonMobile {
+    font-size: 0.875rem;
+    width: 335px;
+    height: 36px;
+    margin-top: 10px;
+    border: 1px solid #D5D5D5;
+    background: transparent;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 60px auto 60px;
+    justify-items: left;
+    align-items: flex-start;
+    padding-left: 97.52px;
+
+    h1 {
+      width: 500px;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 2.125rem;
+      text-align: left;
+    }
+  
+    p {
+      width: 400px;
+      font-size: 1rem;
+      text-align: left;
+    }
+  }
+
+  .cards {
+    display: flex;
+  }
+
+  .card {
+    margin-top: 15px;
+  
+    &.cardsDesktop {
+      display: block;
+    }
+
+    & + .card {
+      margin-left: 30px;
+    }
+
+    .cardCar {
+      width: 270px;
+      height: 350px;
+
+      .cardCarMobile {
+        flex-direction: column;
+
+        p {
+          margin: 10px 0 20px;
+          font-weight: lighter;
+          width: 230px;
+          display: block;
+          font-size: 0.875rem;
+        }
+
+        button {
+          display: none;
+        }
+  
+        .buttonDesktop {
+          display: block;
+          font-size: 0.875rem;
+          width: 230px;
+          height: 36px;
+          margin-top: 10px;
+          border: 1px solid #D5D5D5;
+          background: transparent;
+        }
+      }
+    }
+
+    .buttonMobile {
+      display: none;
+    }
+  }
+
+}
