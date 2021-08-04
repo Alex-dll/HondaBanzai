@@ -13,19 +13,19 @@ export function Contact() {
         </div>
         <form className={styles.form}>
           <div className={styles.input}>
-            <input type="text" placeholder="Nome" />
+            <input type="text" placeholder="Nome" required/>
             <img src="/images/Grupo 32.svg" alt="Pessoa" />
           </div>
           <div className={styles.input}>
-            <input type="text" placeholder="E-mail" />
+            <input type="text" placeholder="E-mail" required/>
             <img src="/images/black-envelope.svg" alt="Envelope" />
           </div>
           <div className={styles.input}>
-            <input type="text" placeholder="Telefone" />
+            <input type="text" placeholder="Telefone" required/>
             <img src="/images/call-answer.svg" alt="Telefone" />
           </div>
           <div className={styles.select}>
-            <select name="Escolha o horário">
+            <select name="Escolha o horário" required>
               <option disabled selected>Escolha o horário</option>
               <option value="Matutino">Matutino</option>
               <option value="Verspertino">Verspertino</option>
@@ -34,7 +34,7 @@ export function Contact() {
             <img src="/images/clock-circular-outline.svg" alt="Pessoa" />
           </div>
           <div className={styles.select}>
-            <select name="Escolha a unidade">
+            <select name="Escolha a unidade" required>
               <option disabled selected>Escolha a unidade</option>
               <option value="DF">DF</option>
               <option value="MG">MG</option>
