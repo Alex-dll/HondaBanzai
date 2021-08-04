@@ -9,10 +9,10 @@
 ### Detalhes da aplicação
 Para acessar o site clique >>>[AQUI](https://honda-banzai-nfd9rrctu-alex-dll.vercel.app/)<<<
 
-> #### Apresentação Desktop![Behaviors](https://github.com/Alex-dll/HondaBanzai/blob/master/public/Desktop.gif?raw=true)
-
 > #### Apresentação Mobile
 > ![Behaviors](https://github.com/Alex-dll/HondaBanzai/blob/master/public/Mobile.gif?raw=true)
+
+> #### Apresentação Desktop![Behaviors](https://github.com/Alex-dll/HondaBanzai/blob/master/public/Desktop.gif?raw=true)
 
 
 ## Como executar o projeto
