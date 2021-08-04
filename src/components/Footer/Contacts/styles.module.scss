@@ -1,0 +1,129 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  background: #EEEEEE;
+  width: 100vw;
+  height: 339px;
+  align-items: center;
+
+  h2 {
+    font-weight: 500;
+    margin-top: 26px;
+    text-align: center;
+    line-height: 24px;
+    width: 270px;
+    letter-spacing: 0.1rem;
+    font-size: 1.125rem;
+  }
+}
+
+.carts {
+  margin-top: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .cart1 {
+    background: #FFFFFF;
+    border: 1px solid #DF0209;
+    border-radius: 5px;
+    width: 270px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img {
+      width: 26.87px;
+      height: 39.49px;
+    }
+
+    p {
+      margin-left: 17.13px;
+      font-size: 0.875rem;
+
+      strong {
+        font-size: 1.375rem;
+        color: #DF0209;
+      }
+    }
+  }
+
+  .cart2 {
+    margin-top: 9px;
+    background: #FFFFFF;
+    border: 1px solid #DF0209;
+    border-radius: 5px;
+    width: 270px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-style: italic;
+      color: #727B7A;
+      font-size: 1rem;
+      text-align: center;
+
+      strong {
+        font-size: 1.625rem;
+        color: #DF0209;
+      }
+    }
+  }
+}
+
+.social {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 14px;
+
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #C5C5C5;
+    padding: 0.5rem;
+  }
+
+  svg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #C5C5C5;
+    padding: 0.5rem;
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container{
+    height: 228px;
+
+    h2 {
+      margin-top: 17px;
+      font-size: 1.5rem;
+      font-style: italic;
+      width: 500px;
+    }
+  }
+
+  .carts {
+    flex-direction: row;
+
+    .cart2 {
+      margin-left: 30px;
+      margin-top: 0;
+    }
+  }
+
+  .social {
+    margin-top: 20px;
+  }
+}
